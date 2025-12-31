@@ -1,6 +1,6 @@
 # stdio42 Privacy Policy
 
-**Last updated: December 30, 2024**
+**Last updated: December 30, 2025**
 
 ## Our Philosophy
 
