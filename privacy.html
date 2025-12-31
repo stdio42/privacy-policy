@@ -81,6 +81,17 @@
             color: var(--muted);
             font-size: 0.9em;
         }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
     </style>
 </head>
 <body>
@@ -166,9 +177,14 @@
         </ul>
 
         <hr>
-        <p class="muted" style="text-align: center;">
-            &copy; stdio42 — Software that doesn't suck
-        </p>
+
+        <div class="footer">
+            <p class="muted">&copy; stdio42</p>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="support.html">Support</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
