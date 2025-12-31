@@ -73,9 +73,41 @@
             display: flex;
             gap: 24px;
         }
+        .nav-bar {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-brand {
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+        .nav-links a {
+            color: var(--muted);
+        }
+        .nav-links a:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>
+    <nav class="nav-bar">
+        <a href="/" class="nav-brand">stdio42</a>
+        <div class="nav-links">
+            <a href="privacy.html">Privacy</a>
+            <a href="support.html">Support</a>
+            <a href="https://github.com/stdio42">GitHub</a>
+        </div>
+    </nav>
     <div class="container">
         <h1>Support</h1>
         <p class="philosophy">
